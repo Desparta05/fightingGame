@@ -1,0 +1,87 @@
+/* # for ID
+. for Class */
+
+* {
+    box-sizing: border-box;
+}
+
+#mContainer {
+    position: relative;
+    display: inline-block;
+}
+
+#healthContainer {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 20px;
+}
+
+#playerContainer{
+    position: relative;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#playerBackHealth {
+    background-color: red;
+    height: 30px;
+    width: 100%;
+
+}
+
+#playerFrontHealth {
+    position: absolute;
+    background: green;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#gTimer {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#enemyContainer {
+    position: relative;
+    height: 30px;
+    width: 100%;
+}
+
+#enemyBackHealth {
+    background-color: red;
+    height: 30px;
+
+}
+
+#enemyFrontHealth {
+    position: absolute;
+    background: green;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#sNotify {
+    position: absolute;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+}
